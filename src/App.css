@@ -1,0 +1,34 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  height: 1em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+  margin: 5px;
+  padding: 5px;
+}
+
+select {
+  width: 100%;
+  padding: 5px;
+}
+
+pre {
+  text-align: start;
+  background-color: darkgrey;
+  padding: 10px;
+}
